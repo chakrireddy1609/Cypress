@@ -6,5 +6,6 @@ describe('Navigate to Website',()=>{
         cy.contains('Forgot Password')
         cy.contains('Forgot Password').click()
         cy.url().should('include','/forgot-password')
+
         })
-})
+})  
